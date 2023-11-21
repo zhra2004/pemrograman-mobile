@@ -7,6 +7,7 @@ import 'app/modules/home/handler/notification_handler.dart';
 import 'app/modules/home/views/first_page.dart';
 
 void main() async {
+  // perubahan ke 2
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
